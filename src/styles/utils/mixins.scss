@@ -24,6 +24,10 @@
   }
 }
 
+.container {
+  @include constentPaddingInline;
+}
+
 @mixin iconGap(){
   gap: 24px;
   @include onTablet {
@@ -50,4 +54,20 @@
   transition: transform $transition-time;
   transform: scale(0);
   transform-origin: left;
+}
+
+@mixin pageGrid {
+  --columns: 2;
+  display: grid;
+  grid-template-columns: repeat(var(--columns), 1fr);
+  column-gap: 20px;
+
+  @include onTablet {
+    --columns: 6;
+    column-gap: 24px;
+  }
+
+  @include onDesktop {
+      --columns: 12;
+  }
 }

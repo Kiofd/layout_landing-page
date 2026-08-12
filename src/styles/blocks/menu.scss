@@ -4,18 +4,12 @@
   height: 100vh;
   background-position: center;
 
-  display: flex;
-
-  flex-direction: column;
-
-  overflow: auto;
-
   &__content {
     display: flex;
     flex-direction: column;
-    @include constentPaddingInline;
     position: relative;
     gap: 32px;
+    overflow: auto;
   }
 
   &__numbers {

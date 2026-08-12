@@ -1,15 +1,16 @@
 .header {
   // display: none !important;
-  
-  box-sizing: border-box;
+
   background-image: url("../images/header-bg.png");
-  height: 100vh;
   background-size: cover;
   background-position: center;
 
-  display: flex;
+  &__content{
+    height: 100vh;
 
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
+  }
 
   &_title {
     display: flex;
@@ -19,7 +20,7 @@
     height: 25vh;
 
     padding-block: 25px;
-    
+
     @include constentPaddingInline;
 
     text-align: center;
