@@ -1,16 +1,7 @@
 .explore-online {
-
   &__products {
     @include pageGrid;
     row-gap: 48px;
-
-    @include onTablet {
-
-    }
-
-    @include onDesktop {
-
-    }
   }
 
   &__product {

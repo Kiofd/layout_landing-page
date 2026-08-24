@@ -9,9 +9,16 @@
     />
     <title>THE MET</title>
     <link
+      rel="icon"
+      type="image"
+      href="/src/images/logo.png"
+    />
+
+    <link
       rel="stylesheet"
       href="src/styles/style.scss"
     />
+
     <script
       src="scripts/main.js"
       defer
@@ -60,7 +67,7 @@
                 <a href="#" class="nav__link">Home</a>
               </li>
               <li class="nav__item">
-                <a href="#aubout-us" class="nav__link">About Us</a>
+                <a href="#museum-hours" class="nav__link">About Us</a>
               </li>
               <li class="nav__item">
                 <a href="#now-on-view" class="nav__link">Now on view</a>
@@ -159,8 +166,118 @@
 
           </section>
           <section class="now-on-view" id="now-on-view">
-            <h2 class="section-title">Now on view</h2>
+
+            <div class="now-on-view__intro">
+              <h2 class="
+              now-on-view__title
+              section-title
+              ">Now on view</h2>
+
+              <div class="now-on-view__description">
+                Explore exhibition gallery guides, videos, articles, and more.
+              </div>
+            </div>
+
+            <div class="now-on-view__list">
+              <div class="exhibition-card">
+                <div class="exhibition-card__photos">
+                  <a href="#" class="exhibition-card__link exhibition-card__link--wide">
+                    <img
+                    src="./src/images/now-on-view/now-on-view-1-wide.png"
+                    alt="now-on-view-1"
+                    class="exhibition-card__photo exhibition-card__photo--now-on-view-1"
+                    >
+                  </a>
+                  <a href="#" class="exhibition-card__link exhibition-card__link--square">
+                    <img
+                      src="./src/images/now-on-view/now-on-view-2.png"
+                      alt="now-on-view-2"
+                      class="exhibition-card__photo"
+                    >
+                  </a>
+                </div>
+                <h3 class="exhibition-card__title">
+                  <a
+                  href="https://www.metmuseum.org/exhibitions/a-new-look-at-old-masters"
+                  class="exhibition-card__link"
+                  target="_blank"
+                  >
+                    A New Look at Old Masters
+                  </a>
+                </h3>
+                <p class="exhibition-card__date">December 12, 2020 – Through Spring 2023</p>
+              </div>
+
+              <div class="exhibition-card">
+                <div class="exhibition-card__photos exhibition-card__photos--3-in-row">
+                  <a href="#" class="exhibition-card__link exhibition-card__link--square">
+                    <img
+                    src="./src/images/now-on-view/now-on-view-3.png"
+                    alt="now-on-view-3"
+                    class="exhibition-card__photo"
+                    >
+                  </a>
+                  <a href="#" class="exhibition-card__link exhibition-card__link--square">
+                    <img
+                      src="./src/images/now-on-view/now-on-view-4.png"
+                      alt="now-on-view-4"
+                      class="exhibition-card__photo"
+                    >
+                  </a>
+
+                  <a href="#" class="exhibition-card__link exhibition-card__link--square">
+                    <img
+                      src="./src/images/now-on-view/now-on-view-5.png"
+                      alt="now-on-view-5"
+                      class="exhibition-card__photo"
+                    >
+                  </a>
+                </div>
+                <h3 class="exhibition-card__title">
+                  <a
+                  class="exhibition-card__link"
+                  href="https://www.metmuseum.org/exhibitions/a-new-look-at-old-masters"
+                  target="_blank"
+                  >
+                    Bodhisattvas of Wisdom, Compassion, a nd Power
+                  </a>
+                </h3>
+                <p class="exhibition-card__date">March 27, 2021 – October 30, 2022</p>
+              </div>
+
+              <div class="exhibition-card">
+                <div class="exhibition-card__photos">
+                  <a href="#" class="exhibition-card__link exhibition-card__link--square">
+                    <img
+                    src="./src/images/now-on-view/now-on-view-6.png"
+                    alt="now-on-view-6"
+                    class="exhibition-card__photo"
+                    >
+                  </a>
+                  <a href="#" class="exhibition-card__link exhibition-card__link--wide">
+                    <img
+                      src="./src/images/now-on-view/now-on-view-7-wide.png"
+                      alt="now-on-view-7"
+                      class="exhibition-card__photo exhibition-card__photo--now-on-view-7"
+                    >
+                  </a>
+                </div>
+                <h3 class="exhibition-card__title">
+                  <a
+                  class="exhibition-card__link"
+                  href="https://www.metmuseum.org/exhibitions/inspiring-walt-disney"
+                  target="_blank"
+                  >
+                    Inspiring Walt Disney: The Animation of French Decorative Arts
+                  </a>
+                </h3>
+                <p class="exhibition-card__date">December 10, 2021 – March 6, 2022</p>
+              </div>
+            </div>
+
+            <button class="now-on-view__button">View all exhibitions</button>
           </section>
+
           <section class="explore-online" id="explore-online">
             <h2 class="section-title">Explore Online</h2>
             <div class="explore-online__products">
@@ -193,16 +310,93 @@
               </article>
             </div>
           </section>
-          <section class="contacts" id="contacts">
-            <h2 class="section-title">Contacts</h2>
+          <section class="contact" id="contacts">
+            <h2 class="section-title">Contacts us</h2>
+            <div class="contact__info">
+              <div class="contact__location">
+                <div class="contact__location-title">The Met Fifth Avenue</div>
+                <div class="contact__wraper">
+
+                  <div class="contact__group">
+                    <div class="contact__label">Phone</div>
+                    <a href="tel:+1 212-535-7710" class="contact__link">+1 212-535-7710</a>
+                  </div>
+
+                  <div class="contact__group">
+                    <div class="contact__label">Address</div>
+                    <address>
+                      <a
+                      href="https://maps.app.goo.gl/PmoZY4QECCRy4u9u5"
+                      target="_blank"
+                      class="contact__link">
+                        1000 Fifth Avenue New York, NY 10028
+                      </a>
+                    </address>
+                  </div>
+                </div>
+
+                <div class="contact__location">
+                  <div class="contact__location-title">The Met Cloisters</div>
+
+                  <div class="contact__group">
+                    <div class="contact__label">Phone</div>
+                    <a href="tel:+1 212-535-7710" class="contact__link">+1 212-535-7710</a>
+                  </div>
+
+                  <div class="contact__group">
+                    <div class="contact__label">Address</div>
+                    <address>
+                      <a
+                      href="https://maps.app.goo.gl/xcnbAYK6nmCx6Lrm6"
+                      target="_blank"
+                      class="contact__link">
+                        99 Margaret Corbin Drive
+                        <br>Fort Tryon Park
+                        <br>New York, NY 10040
+                      </a>
+                    </address>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact__group">
+                <form class="contact__form" onsubmit="this.reset(); return false;">
+                  <input
+                    class="contact__input"
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Name"
+                    required
+                  >
+
+                  <input
+                    class="contact__input"
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                    required
+                  >
+
+                  <textarea
+                  class="contact__input contact__text-area"
+                  placeholder="Message"
+                  id="message"
+                  name="message"
+                  ></textarea>
+
+                  <input
+                  class="contact__button"
+                  type="submit"
+                  value="send">
+                </form>
+              </div>
+            </div>
           </section>
         </div>
       </div>
-
     </main>
-
-    <footer class="footer" id="footer">
-
-    </footer>
+    <footer class="footer"></footer>
   </body>
 </html>

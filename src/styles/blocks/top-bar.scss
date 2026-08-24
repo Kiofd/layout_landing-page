@@ -19,4 +19,7 @@
     @include hover(transform, scale(1.2));
   }
 
+  position: sticky; /* to keep cross always visible */
+  top: 0;
+  z-index: 1;
 }

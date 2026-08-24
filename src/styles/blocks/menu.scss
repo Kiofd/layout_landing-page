@@ -4,6 +4,8 @@
   height: 100vh;
   background-position: center;
 
+  overflow: auto; /* to scroll the menu if needed */
+
   &__content {
     display: flex;
     flex-direction: column;

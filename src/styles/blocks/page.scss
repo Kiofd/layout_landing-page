@@ -4,12 +4,18 @@
 
   scroll-behavior: smooth;
 
+  &:has(.page__menu:target) {
+  overflow: hidden; /* not to scroll the page */
+  }
+
+  
   &__body {
     margin: 0;
     padding: 0;
 
     min-width: 320px;
   }
+
 
   &__menu {
     position: fixed;
@@ -29,11 +35,11 @@
         pointer-events: all;
         transform: translateX(0);
       }
-  
+
   }
 
   &:has(.page__menu:target) {
     overflow: hidden;
   }
-  
+
 }
