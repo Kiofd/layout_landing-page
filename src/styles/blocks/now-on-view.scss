@@ -1,5 +1,5 @@
 .now-on-view {
-  @include pageGrid;
+  @include page-grid;
 
   &__intro {
     grid-column: 1 / -1;
