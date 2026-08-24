@@ -59,7 +59,7 @@
 @mixin button-hover {
   content: '';
   background: #AE1C23;
-  transform: scale(1.2);  
+  transform: scale(1.2);
 
   @include hover(background-color, $transition-time);
   @include hover(transform, $transition-time);
@@ -98,7 +98,7 @@
 }
 
 @mixin section-text{
-  font-family: Cinzel;
+  font-family: Cinzel, sans-serif;
   font-weight: 400;
   font-style: Regular;
   font-size: 14px;
@@ -107,7 +107,7 @@
 }
 
 @mixin button{
-  font-family: Cinzel;
+  font-family: Cinzel, sans-serif;
   font-weight: 700;
   font-style: Bold;
   font-size: 16px;
