@@ -3,12 +3,12 @@
     @include pageGrid;
   }
 
-  &__location{
+  &__location {
     margin-bottom: 48px;
 
     grid-column: 1/-1;
 
-    @include onTablet {
+    @include on-tablet {
       grid-column: span 3;
     }
 
@@ -16,31 +16,34 @@
       grid-column: span 5;
     }
 
-    &-title{
+    &-title {
       @include section-subtitle;
+
       color: $main-text-color;
       margin-bottom: 16px;
     }
   }
 
-  &__label{
+  &__label {
     @include section-text;
+
     font-style: Regular;
     margin-bottom: 4px;
   }
 
-  &__link{
+  &__link {
     @include section-subtitle;
+
     color: $main-text-color;
     text-decoration: none;
     font-style: normal;
     margin-bottom: 8px;
   }
 
-  &__group{
+  &__group {
     grid-column: 1/-1;
 
-    @include onTablet {
+    @include on-tablet {
       grid-column: span 3;
     }
 
@@ -49,13 +52,12 @@
     }
   }
 
-  &__form{
+  &__form {
     display: flex;
     flex-direction: column;
-
   }
 
-  &__input{
+  &__input {
     background: $form-background;
     text-decoration: none;
     border: none;
@@ -69,10 +71,9 @@
     align-items: center;
 
     padding-left: 10.9px;
-
   }
 
-  &__text-area{
+  &__text-area {
     align-items: flex-start;
     padding-top: 14px;
     height: 144px;

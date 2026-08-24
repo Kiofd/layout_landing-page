@@ -7,7 +7,7 @@
     padding-block: 100px;
     margin-inline: 20px;
 
-    @include onTablet {
+    @include on-tablet {
       padding-block: 140px;
       row-gap: 140px;
     }

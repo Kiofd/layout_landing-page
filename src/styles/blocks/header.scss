@@ -1,11 +1,11 @@
 .header {
   // display: none !important;
 
-  background-image: url("../images/header-bg.png");
+  background-image: url('../images/header-bg.png');
   background-size: cover;
   background-position: center;
 
-  &__content{
+  &__content {
     height: 100vh;
 
     display: flex;
@@ -32,9 +32,9 @@
     vertical-align: middle;
     line-height: 100%;
 
-    @include onTablet {
+    @include on-tablet {
       font-size: 64px;
-      height: 5vh
+      height: 5vh;
     }
   }
 
@@ -44,4 +44,3 @@
     align-items: center;
   }
 }
-
