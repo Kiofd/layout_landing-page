@@ -8,7 +8,7 @@
       grid-column: 2 / -2;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       grid-column: 5 / -5;
     }
   }

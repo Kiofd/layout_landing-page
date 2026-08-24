@@ -13,11 +13,11 @@
     text-align: left;
   }
 
-  @include onDesktop {
+  @include on-tablet {
     font-size: 48px;
   }
 
-  @include on-tablet {
+  @include on-desktop {
     font-size: 48px;
   }
 }

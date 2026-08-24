@@ -21,7 +21,7 @@
 
     padding-block: 25px;
 
-    @include constentPaddingInline;
+    @include content-padding-inline;
 
     text-align: center;
     color: $header-text-color;

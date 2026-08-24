@@ -32,7 +32,7 @@
   }
 
   &__photos {
-    @include pageGrid;
+    @include page-grid;
 
     margin-bottom: 24px;
 
@@ -43,7 +43,7 @@
         --columns: 6;
       }
 
-      @include onDesktop {
+      @include on-desktop {
         --columns: 12;
       }
     }
@@ -65,7 +65,7 @@
         grid-column: span 4;
       }
 
-      @include onDesktop {
+      @include on-desktop {
         grid-column: span 8;
       }
     }
@@ -80,7 +80,7 @@
         grid-column: span 2;
       }
 
-      @include onDesktop {
+      @include on-desktop {
         grid-column: span 4;
       }
     }

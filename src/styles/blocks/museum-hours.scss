@@ -1,5 +1,5 @@
 .museum-hours {
-  @include pageGrid;
+  @include page-grid;
 
   &__title {
     margin-bottom: 32px;
@@ -22,7 +22,7 @@
       grid-column: 1 / 4;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       grid-column: span 5;
     }
   }
@@ -34,7 +34,7 @@
       grid-column: 4 / 7;
     }
 
-    @include on-tablet {
+    @include on-desktop {
       grid-column: span 7;
     }
   }

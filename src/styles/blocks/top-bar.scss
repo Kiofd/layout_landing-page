@@ -12,7 +12,7 @@
   &__icons {
     display: flex;
 
-    @include iconGap;
+    @include icon-gap;
   }
 
   &__logo {
