@@ -8,11 +8,6 @@
 
   background-size: cover;
 
-  @media (min-width: 576px) {
-    height: 32px;
-    width: 32px;
-  }
-
   @include hover(transform, scale(1.2));
 
   &--phone {

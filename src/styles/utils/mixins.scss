@@ -41,6 +41,8 @@
   &:hover {
     #{$property}: $toValue;
   }
+
+  cursor: pointer;
 }
 
 @mixin text-hover {

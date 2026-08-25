@@ -2,10 +2,6 @@
   row-gap: 24px;
   margin-bottom: 48px;
 
-  // &:has(.exhibition-card__title:hover) .exhibition-card__photos{
-  //   @include hover(transform, scale(0.9));
-  // }
-
   &__title {
     font-family: $font-family;
     font-weight: 700;

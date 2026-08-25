@@ -9,14 +9,39 @@
     gap: 55px;
   }
 
+  &__contact {
+    &__phone-number {
+      color: $header-text-color;
+      font-size: 16px;
+      text-align: end;
+      margin: 0;
+
+      opacity: 0;
+      overflow: hidden;
+
+      @include hover(opacity, $transition-time);
+    }
+  }
+
   &__icons {
     display: flex;
+    align-items: center;
 
     @include icon-gap;
+
+    &:has(.icon--phone:hover) {
+      .top-bar__contact__phone-number {
+        @include on-desktop {
+          opacity: 1;
+        }
+      }
+    }
   }
 
   &__logo {
     display: flex;
+
+    width: 48px;
 
     @include hover(transform, scale(1.2));
   }
