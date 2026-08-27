@@ -20,6 +20,15 @@
     &__phone-number {
       color: $header-text-color;
       font-size: 16px;
+
+      font-family: $font-family;
+      font-weight: 700;
+      font-style: Bold;
+      line-height: 27px;
+      letter-spacing: 0;
+      vertical-align: middle;
+      text-transform: uppercase;
+
       text-align: end;
       margin: 0;
 
