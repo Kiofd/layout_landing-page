@@ -3,10 +3,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 65px;
 
   @include on-tablet {
     padding-block: 50px;
     gap: 55px;
+  }
+
+  &__phone-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 16px;
   }
 
   &__contact {
@@ -16,10 +23,11 @@
       text-align: end;
       margin: 0;
 
-      opacity: 0;
-      overflow: hidden;
+      display: none;
 
-      @include hover(opacity, $transition-time);
+      text-decoration: none;
+
+      @include hover(transform, $transition-time);
     }
   }
 
@@ -29,10 +37,11 @@
 
     @include icon-gap;
 
-    &:has(.icon--phone:hover) {
+    &:has(.top-bar__phone-wrapper:hover) {
       .top-bar__contact__phone-number {
         @include on-desktop {
-          opacity: 1;
+          display: block;
+          pointer-events: auto;
         }
       }
     }
